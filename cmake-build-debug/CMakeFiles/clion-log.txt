@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/gd/data/projects/netcompute/ncc
+-- Found LLVM 3.9.1
+-- Using LLVMConfig.cmake in: /usr/local/opt/llvm@3.9/lib/cmake/llvm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/gd/data/projects/netcompute/ncc/cmake-build-debug

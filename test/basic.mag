@@ -1,0 +1,16 @@
+struct Packet {
+   int dstIp
+}
+
+func onPacket(struct Packet pkt) {
+  if (pkt.dstIp == 10) {
+
+  }
+  /* if (pkt.dstIp == 10.0.0.1) {
+    out(pkt, 08:00:20:0A:8C:60)
+  } else if (pkt.dstIp == 10.0.0.2) {
+    out(pkt, 08:00:20:0A:8C:61)
+  } else {
+    drop(pkt)
+  } */
+}

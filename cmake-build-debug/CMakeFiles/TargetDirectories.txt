@@ -1,0 +1,3 @@
+/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/CMakeFiles/ncc.dir

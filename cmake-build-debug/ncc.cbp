@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ncc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\opt\;CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\;CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\;CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncc">
+				<Option output="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/ncc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gd/data/projects/netcompute/ncc/src"/>
+					<Add directory="/usr/local/opt/llvm@3.9/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ncc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncc/fast">
+				<Option output="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/ncc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gd/data/projects/netcompute/ncc/src"/>
+					<Add directory="/usr/local/opt/llvm@3.9/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 ncc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/parser.cc">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/parser.cc.rule">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/parser.hh">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/token.cc">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/cmake-build-debug/token.cc.rule">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/src/IR_generator.cc">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/src/IR_generator.h">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/src/main.cpp">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/src/node.cc">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/src/node.h">
+			<Option target="ncc"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/../../../../../../usr/local/opt/llvm@3.9/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/../../../../../../usr/local/opt/llvm@3.9/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/../../../../../../usr/local/opt/llvm@3.9/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/../../../../../../usr/local/opt/llvm@3.9/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/gd/data/projects/netcompute/ncc/../../../../../../usr/local/opt/llvm@3.9/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opt\llvm@3.9\lib\cmake\llvm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
